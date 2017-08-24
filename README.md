@@ -19,21 +19,5 @@ You should create one R script called run_analysis.R that does the following.
 
 run_analysis.R file will help you to install the dependencies automatically. It depends on reshape2 and data.table.
 
-## Variables
-
-- activity_labels: receives the content of activity_labels.txt file
-- features: receives the content of features.txt file
-- extract_features: extract mean/std features
-- x_test: receives the content of X_test.txt file
-- y_test: receives the contexnt of y_test.txt file
-- subject_test: receives the content of subject_test.txt file
-- test_data: receives the bind of x_test and y_test data
-- x_train: receives the content of X_train.txt file
-- y_train: receives the contexnt of y_train.txt file
-- subject_test: receives the content of subject_train.txt file
-- train_data: receives the bind of x_train and y_train data
-- data: receives the merge of test and train data
-- tidy_data: receives the tidy data set with the average of each variable for each activity and each subject.
-
 
 
